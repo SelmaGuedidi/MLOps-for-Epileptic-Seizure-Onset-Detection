@@ -1,14 +1,12 @@
 
-from tkinter import _test
+
 from sklearn.metrics import classification_report
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier, GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import RobustScaler, StandardScaler
-from sklearn.model_selection import GridSearchCV
-from sklearn.feature_selection import SelectKBest, f_classif
-from sklearn.ensemble import VotingClassifier
+
 from sklearn.decomposition import PCA
 from sklearn.model_selection import RandomizedSearchCV
 import mlflow
@@ -17,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from scipy.stats import randint
 # Étape 1 : Initialisation du dépôt mlflow
 mlflow.set_tracking_uri("http://127.0.0.1:8080")  # URL du serveur mlflow
-#mlflow.set_experiment("epilepsy_detection")  # Nom de l'expérience mlflow
+mlflow.set_experiment("epilepsy_detection")  # Nom de l'expérience mlflow
 
 # Étape 2 : Définition de la source de données CSV
 column_names = ["DFA_channel1", "Fisher_Information_channel1", "HFD_channel1", "PFD_channel1", "SVD_Entropy_channel1", "variance_channel1", "std_deviation_channel1", "mean_channel1", "fft_variance_channel1", "fft_std_deviation_channel1", "fft2_variance_channel1", "zero_crossing_rate_channel1", "complexity_channel1", "DFA_channel2", "Fisher_Information_channel2", "HFD_channel2", "PFD_channel2", "SVD_Entropy_channel2", "variance_channel2", "std_deviation_channel2", "mean_channel2", "fft_variance_channel2", "fft_std_deviation_channel2", "fft2_variance_channel2", "zero_crossing_rate_channel2", "complexity_channel2", "label"]
@@ -39,7 +37,7 @@ models = {
     "LogisticRegression_PCA": Pipeline([('scaler', StandardScaler()), ('pca', PCA()), ('model', LogisticRegression())]),
     "GradientBoosting_PCA": Pipeline([('scaler', StandardScaler()), ('pca', PCA()), ('model', GradientBoostingClassifier())]),
     "AdaBoost_PCA": Pipeline([('scaler', StandardScaler()), ('pca', PCA()), ('model', AdaBoostClassifier())]),
-    #after doing some hyperparameter optimization
+
     
 }
 
@@ -54,7 +52,7 @@ pipeline = Pipeline([
             'pca__n_components': randint(5, 20),  # Varying PCA components
             'pca__svd_solver': ['auto', 'full', 'arpack', 'randomized'],
             'pca__whiten': [True, False],
-            'feature_selection__k': randint(5, 20),  # Varying number of features selected
+            'feature_selection__k': randint(5, 20), 
             'model__n_estimators': randint(100, 1000),
             'model__max_depth': [None] + list(randint(3, 20).rvs(5)),
             'model__min_samples_split': randint(2, 11),
@@ -65,7 +63,7 @@ pipeline = Pipeline([
             'model__criterion': ['gini', 'entropy']
         },
         cv=5,
-        n_iter=300  # Increased iterations for more exhaustive search
+        n_iter=300  
     ))
 
 ])

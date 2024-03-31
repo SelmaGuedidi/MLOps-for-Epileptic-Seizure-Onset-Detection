@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/848097431272586711/0c0ad68f2cf641db80082fcf58bfa19e/artifacts
+end_time: 1711852982861
+entry_point_name: ''
+experiment_id: '848097431272586711'
+lifecycle_stage: active
+run_id: 0c0ad68f2cf641db80082fcf58bfa19e
+run_name: SVM
+run_uuid: 0c0ad68f2cf641db80082fcf58bfa19e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711852980856
+status: 3
+tags: []
+user_id: selma

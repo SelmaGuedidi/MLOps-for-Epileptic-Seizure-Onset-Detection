@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/848097431272586711
+creation_time: 1711852049172
+experiment_id: '848097431272586711'
+last_update_time: 1711852049172
+lifecycle_stage: active
+name: epilepsy_detection

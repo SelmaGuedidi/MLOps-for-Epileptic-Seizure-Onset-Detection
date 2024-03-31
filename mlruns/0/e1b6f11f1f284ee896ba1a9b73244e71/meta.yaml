@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e1b6f11f1f284ee896ba1a9b73244e71/artifacts
+end_time: 1711849202372
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1b6f11f1f284ee896ba1a9b73244e71
+run_name: LogisticRegression
+run_uuid: e1b6f11f1f284ee896ba1a9b73244e71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711849202133
+status: 4
+tags: []
+user_id: selma
