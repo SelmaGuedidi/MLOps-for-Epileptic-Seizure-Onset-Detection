@@ -148,3 +148,5 @@ Model: SVM_PCA, Accuracy on test: 0.9396495781959766, Recall on test: 0.93964957
 Model: LogisticRegression_PCA, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9263917556392041
 Model: GradientBoosting_PCA, Accuracy on test: 0.9448410123296561, Recall on test: 0.9448410123296561, F1-score on test: 0.9397587329776748
 Model: AdaBoost_PCA, Accuracy on test: 0.9286177806619078, Recall on test: 0.9286177806619078, F1-score on test: 0.9279996970905924
+Model: RandomForest, Accuracy on test: 0.9584685269305646, Recall on test: 0.9584685269305646, F1-score on test: 0.9554094071529776
+Model: SVM, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.9464485836149136
