@@ -5,7 +5,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier, GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import RobustScaler, StandardScaler
 from sklearn.model_selection import GridSearchCV
 from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.ensemble import VotingClassifier
@@ -50,7 +50,10 @@ pipeline = Pipeline([
      ('model', RandomizedSearchCV(
         estimator=RandomForestClassifier(),
         param_distributions={
+            'scaler': [StandardScaler(), RobustScaler()],
             'pca__n_components': randint(5, 20),  # Varying PCA components
+            'pca__svd_solver': ['auto', 'full', 'arpack', 'randomized'],
+            'pca__whiten': [True, False],
             'feature_selection__k': randint(5, 20),  # Varying number of features selected
             'model__n_estimators': randint(100, 1000),
             'model__max_depth': [None] + list(randint(3, 20).rvs(5)),
@@ -62,8 +65,9 @@ pipeline = Pipeline([
             'model__criterion': ['gini', 'entropy']
         },
         cv=5,
-        n_iter=200
+        n_iter=300  # Increased iterations for more exhaustive search
     ))
+
 ])
 
 # Boucle sur les modèles

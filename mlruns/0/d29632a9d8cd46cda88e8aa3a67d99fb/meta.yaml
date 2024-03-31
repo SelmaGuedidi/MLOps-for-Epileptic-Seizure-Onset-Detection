@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d29632a9d8cd46cda88e8aa3a67d99fb/artifacts
+end_time: 1711848406948
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d29632a9d8cd46cda88e8aa3a67d99fb
+run_name: AdaBoost
+run_uuid: d29632a9d8cd46cda88e8aa3a67d99fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711848404092
+status: 3
+tags: []
+user_id: selma
