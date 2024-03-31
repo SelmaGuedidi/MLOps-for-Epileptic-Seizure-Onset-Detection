@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/2fa0514d67c347088e5d2eddaae4d919/artifacts
+end_time: 1711843963319
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2fa0514d67c347088e5d2eddaae4d919
+run_name: RandomForest_PCA
+run_uuid: 2fa0514d67c347088e5d2eddaae4d919
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711843959843
+status: 3
+tags: []
+user_id: selma

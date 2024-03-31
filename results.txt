@@ -1,0 +1,105 @@
+Model: RandomForest, Accuracy on test: 0.9461388708630759
+Model: SVM, Accuracy on test: 0.9221284879948086
+Model: LogisticRegression, Accuracy on test: 0.9286177806619078
+Model: GradientBoosting, Accuracy on test: 0.9377027903958468
+Model: AdaBoost, Accuracy on test: 0.9286177806619078
+Model: RandomForest_PCA, Accuracy on test: 0.9480856586632057
+Model: SVM_PCA, Accuracy on test: 0.9396495781959766
+Model: LogisticRegression_PCA, Accuracy on test: 0.9286177806619078
+Model: GradientBoosting_PCA, Accuracy on test: 0.936404931862427
+Model: AdaBoost_PCA, Accuracy on test: 0.9240752757949383
+Model: RandomForest, Accuracy on test: 0.9448410123296561, Recall on test: 0.9448410123296561, F1-score on test: 0.9395216893653188
+Model: SVM, Accuracy on test: 0.9221284879948086, Recall on test: 0.9221284879948086, F1-score on test: 0.9031776889465948
+Model: LogisticRegression, Accuracy on test: 0.9286177806619078, Recall on test: 0.9286177806619078, F1-score on test: 0.9181743904542873
+Model: GradientBoosting, Accuracy on test: 0.936404931862427, Recall on test: 0.936404931862427, F1-score on test: 0.9298534063677275
+Model: AdaBoost, Accuracy on test: 0.9286177806619078, Recall on test: 0.9286177806619078, F1-score on test: 0.9233599185441802
+Model: RandomForest_PCA, Accuracy on test: 0.9467878001297858, Recall on test: 0.9467878001297858, F1-score on test: 0.9424402124566917
+Model: SVM_PCA, Accuracy on test: 0.9396495781959766, Recall on test: 0.9396495781959766, F1-score on test: 0.9303428881837826
+Model: LogisticRegression_PCA, Accuracy on test: 0.9286177806619078, Recall on test: 0.9286177806619078, F1-score on test: 0.9181743904542873
+Model: GradientBoosting_PCA, Accuracy on test: 0.936404931862427, Recall on test: 0.936404931862427, F1-score on test: 0.9292783534572744
+Model: AdaBoost_PCA, Accuracy on test: 0.9240752757949383, Recall on test: 0.9240752757949383, F1-score on test: 0.9180265924626685
+Model: RandomForest, Accuracy on test: 0.9558728098637248, Recall on test: 0.9558728098637248, F1-score on test: 0.953298923789981
+Model: SVM, Accuracy on test: 0.9428942245295263, Recall on test: 0.9428942245295263, F1-score on test: 0.9359604300137683
+Model: LogisticRegression, Accuracy on test: 0.9292667099286178, Recall on test: 0.9292667099286178, F1-score on test: 0.9187334801310051
+Model: GradientBoosting, Accuracy on test: 0.945489941596366, Recall on test: 0.945489941596366, F1-score on test: 0.941688814983433
+Model: AdaBoost, Accuracy on test: 0.9357560025957171, Recall on test: 0.9357560025957171, F1-score on test: 0.9306378859299502
+Model: RandomForest_PCA, Accuracy on test: 0.9558728098637248, Recall on test: 0.9558728098637248, F1-score on test: 0.9529661433060971
+Model: SVM_PCA, Accuracy on test: 0.9461388708630759, Recall on test: 0.9461388708630759, F1-score on test: 0.9399787090167026
+Model: LogisticRegression_PCA, Accuracy on test: 0.9292667099286178, Recall on test: 0.9292667099286178, F1-score on test: 0.9191013831030291
+Model: GradientBoosting_PCA, Accuracy on test: 0.9435431537962362, Recall on test: 0.9435431537962362, F1-score on test: 0.9383412914006789
+Model: AdaBoost_PCA, Accuracy on test: 0.9299156391953277, Recall on test: 0.9299156391953277, F1-score on test: 0.9241895481136916
+Model: RandomForest, Accuracy on test: 0.9558728098637248, Recall on test: 0.9558728098637248, F1-score on test: 0.9529661433060971
+Model: SVM, Accuracy on test: 0.9428942245295263, Recall on test: 0.9428942245295263, F1-score on test: 0.9359604300137683
+Model: LogisticRegression, Accuracy on test: 0.9292667099286178, Recall on test: 0.9292667099286178, F1-score on test: 0.9187334801310051
+Model: GradientBoosting, Accuracy on test: 0.9448410123296561, Recall on test: 0.9448410123296561, F1-score on test: 0.9411015857468567
+Model: AdaBoost, Accuracy on test: 0.9357560025957171, Recall on test: 0.9357560025957171, F1-score on test: 0.9306378859299502
+Model: RandomForest_PCA, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.947048670994161
+Model: SVM_PCA, Accuracy on test: 0.9461388708630759, Recall on test: 0.9461388708630759, F1-score on test: 0.9399787090167026
+Model: LogisticRegression_PCA, Accuracy on test: 0.9292667099286178, Recall on test: 0.9292667099286178, F1-score on test: 0.9191013831030291
+Model: GradientBoosting_PCA, Accuracy on test: 0.9428942245295263, Recall on test: 0.9428942245295263, F1-score on test: 0.9377537463272223
+Model: AdaBoost_PCA, Accuracy on test: 0.9299156391953277, Recall on test: 0.9299156391953277, F1-score on test: 0.9241895481136916
+Model: RandomForest, Accuracy on test: 0.9571706683971447, Recall on test: 0.9571706683971447, F1-score on test: 0.9540159511265082
+Model: SVM, Accuracy on test: 0.9428942245295263, Recall on test: 0.9428942245295263, F1-score on test: 0.9359604300137683
+Model: LogisticRegression, Accuracy on test: 0.9292667099286178, Recall on test: 0.9292667099286178, F1-score on test: 0.9187334801310051
+Model: GradientBoosting, Accuracy on test: 0.9461388708630759, Recall on test: 0.9461388708630759, F1-score on test: 0.9422777135722438
+Model: AdaBoost, Accuracy on test: 0.9357560025957171, Recall on test: 0.9357560025957171, F1-score on test: 0.9306378859299502
+Model: RandomForest_PCA, Accuracy on test: 0.9500324464633355, Recall on test: 0.9500324464633355, F1-score on test: 0.9458473823079361
+Model: SVM_PCA, Accuracy on test: 0.9461388708630759, Recall on test: 0.9461388708630759, F1-score on test: 0.9399787090167026
+Model: LogisticRegression_PCA, Accuracy on test: 0.9292667099286178, Recall on test: 0.9292667099286178, F1-score on test: 0.9191013831030291
+Model: GradientBoosting_PCA, Accuracy on test: 0.9435431537962362, Recall on test: 0.9435431537962362, F1-score on test: 0.9383412914006789
+Model: AdaBoost_PCA, Accuracy on test: 0.9299156391953277, Recall on test: 0.9299156391953277, F1-score on test: 0.9241895481136916
+Model: RandomForest, Accuracy on test: 0.9461388708630759, Recall on test: 0.9461388708630759, F1-score on test: 0.9394702731952411
+Model: SVM, Accuracy on test: 0.9357560025957171, Recall on test: 0.9357560025957171, F1-score on test: 0.9261891241556834
+Model: RandomForest, Accuracy on test: 0.9578195976638546, Recall on test: 0.9578195976638546, F1-score on test: 0.9546288803361516
+Model: SVM, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.9464485836149136
+Model: LogisticRegression, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9254544374481546
+Model: GradientBoosting, Accuracy on test: 0.9519792342634653, Recall on test: 0.9519792342634653, F1-score on test: 0.9491782405949793
+Model: AdaBoost, Accuracy on test: 0.9448410123296561, Recall on test: 0.9448410123296561, F1-score on test: 0.9417255938962583
+Model: RandomForest_PCA, Accuracy on test: 0.9519792342634653, Recall on test: 0.9519792342634653, F1-score on test: 0.946597940365697
+Model: SVM_PCA, Accuracy on test: 0.9396495781959766, Recall on test: 0.9396495781959766, F1-score on test: 0.92934818850033
+Model: LogisticRegression_PCA, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9263917556392041
+Model: GradientBoosting_PCA, Accuracy on test: 0.9441920830629461, Recall on test: 0.9441920830629461, F1-score on test: 0.9389305979648109
+Model: AdaBoost_PCA, Accuracy on test: 0.9286177806619078, Recall on test: 0.9286177806619078, F1-score on test: 0.9279996970905924
+Model: RandomForest, Accuracy on test: 0.9571706683971447, Recall on test: 0.9571706683971447, F1-score on test: 0.9538450788608177
+Model: SVM, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.9464485836149136
+Model: LogisticRegression, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9254544374481546
+Model: GradientBoosting, Accuracy on test: 0.9519792342634653, Recall on test: 0.9519792342634653, F1-score on test: 0.9491782405949793
+Model: AdaBoost, Accuracy on test: 0.9448410123296561, Recall on test: 0.9448410123296561, F1-score on test: 0.9417255938962583
+Model: RandomForest_PCA, Accuracy on test: 0.9500324464633355, Recall on test: 0.9500324464633355, F1-score on test: 0.9452137656603476
+Model: SVM_PCA, Accuracy on test: 0.9396495781959766, Recall on test: 0.9396495781959766, F1-score on test: 0.92934818850033
+Model: LogisticRegression_PCA, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9263917556392041
+Model: GradientBoosting_PCA, Accuracy on test: 0.9441920830629461, Recall on test: 0.9441920830629461, F1-score on test: 0.9389305979648109
+Model: AdaBoost_PCA, Accuracy on test: 0.9286177806619078, Recall on test: 0.9286177806619078, F1-score on test: 0.9279996970905924
+Model: RandomForest, Accuracy on test: 0.9630110317975341, Recall on test: 0.9630110317975341, F1-score on test: 0.9605034163243628
+Model: SVM, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.9464485836149136
+Model: LogisticRegression, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9254544374481546
+Model: GradientBoosting, Accuracy on test: 0.9526281635301752, Recall on test: 0.9526281635301752, F1-score on test: 0.9497767750889302
+Model: AdaBoost, Accuracy on test: 0.9448410123296561, Recall on test: 0.9448410123296561, F1-score on test: 0.9417255938962583
+Model: RandomForest_PCA, Accuracy on test: 0.9539260220635951, Recall on test: 0.9539260220635951, F1-score on test: 0.948656486026336
+Model: SVM_PCA, Accuracy on test: 0.9396495781959766, Recall on test: 0.9396495781959766, F1-score on test: 0.92934818850033
+Model: LogisticRegression_PCA, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9263917556392041
+Model: GradientBoosting_PCA, Accuracy on test: 0.9448410123296561, Recall on test: 0.9448410123296561, F1-score on test: 0.9397587329776748
+Model: AdaBoost_PCA, Accuracy on test: 0.9286177806619078, Recall on test: 0.9286177806619078, F1-score on test: 0.9279996970905924
+Model: RandomForest, Accuracy on test: 0.9552238805970149, Recall on test: 0.9552238805970149, F1-score on test: 0.9509058419553764
+Model: SVM, Accuracy on test: 0.9526281635301752, Recall on test: 0.9526281635301752, F1-score on test: 0.9492322059129372
+Model: LogisticRegression, Accuracy on test: 0.927319922128488, Recall on test: 0.927319922128488, F1-score on test: 0.913863381543616
+Model: GradientBoosting, Accuracy on test: 0.9539260220635951, Recall on test: 0.9539260220635951, F1-score on test: 0.9502554535457219
+Model: AdaBoost, Accuracy on test: 0.9409474367293965, Recall on test: 0.9409474367293965, F1-score on test: 0.9364804324706122
+Model: RandomForest_PCA, Accuracy on test: 0.9331602855288773, Recall on test: 0.9331602855288773, F1-score on test: 0.9201830754775314
+Model: SVM_PCA, Accuracy on test: 0.9221284879948086, Recall on test: 0.9221284879948086, F1-score on test: 0.9014752445418563
+Model: LogisticRegression_PCA, Accuracy on test: 0.927319922128488, Recall on test: 0.927319922128488, F1-score on test: 0.9207774953255559
+Model: GradientBoosting_PCA, Accuracy on test: 0.9428942245295263, Recall on test: 0.9428942245295263, F1-score on test: 0.9359604300137683
+Model: AdaBoost_PCA, Accuracy on test: 0.9370538611291369, Recall on test: 0.9370538611291369, F1-score on test: 0.9322923291170262
+Model: RandomForest, Accuracy on test: 0.9591174561972745, Recall on test: 0.9591174561972745, F1-score on test: 0.9560249147873469
+Model: SVM, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.9464485836149136
+Model: LogisticRegression, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9254544374481546
+Model: RandomForest, Accuracy on test: 0.9591174561972745, Recall on test: 0.9591174561972745, F1-score on test: 0.9558604728645138
+Model: SVM, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.9464485836149136
+Model: LogisticRegression, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9254544374481546
+Model: RandomForest, Accuracy on test: 0.9552238805970149, Recall on test: 0.9552238805970149, F1-score on test: 0.9514736283019168
+Model: SVM, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.9464485836149136
+Model: LogisticRegression, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9254544374481546
+Model: RandomForest, Accuracy on test: 0.9610642439974043, Recall on test: 0.9610642439974043, F1-score on test: 0.958499538211262
+Model: SVM, Accuracy on test: 0.9506813757300454, Recall on test: 0.9506813757300454, F1-score on test: 0.9464485836149136
+Model: LogisticRegression, Accuracy on test: 0.9338092147955873, Recall on test: 0.9338092147955873, F1-score on test: 0.9254544374481546
+Model: GradientBoosting, Accuracy on test: 0.9519792342634653, Recall on test: 0.9519792342634653, F1-score on test: 0.9491782405949793

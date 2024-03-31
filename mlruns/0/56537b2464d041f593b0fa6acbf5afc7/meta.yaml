@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/56537b2464d041f593b0fa6acbf5afc7/artifacts
+end_time: 1711844086358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56537b2464d041f593b0fa6acbf5afc7
+run_name: GradientBoosting_PCA
+run_uuid: 56537b2464d041f593b0fa6acbf5afc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711844077384
+status: 3
+tags: []
+user_id: selma
